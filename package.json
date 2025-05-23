@@ -1,0 +1,22 @@
+ {
+  "name": "personal-proj",
+  "version": "1.0.0",
+  "description": "A TypeScript project with Supabase integration",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "clean": "rm -rf dist",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": ["typescript", "supabase"],
+  "author": "haniehz1",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.0.0"
+  }
+}
